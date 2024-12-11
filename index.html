@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>English Worksheets Repository</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>English Worksheets Repository</h1>
+  </header>
+  <main>
+    <div class="filter">
+      <select id="topic">
+        <option value="">All Topics</option>
+        <option value="family life">Family life</option>
+        <option value="storytelling">Storytelling</option>
+        <option value="arts and creativity">Arts and Creativity</option>  
+        <option value="climate change">Climate change</option>
+        <option value="health and fitness">Health and fitness</option>
+        <option value="edibles">Edibles</option>
+        <option value="beauty standards">Beauty standards</option>
+        <option value="festivals">Festivals</option>
+        <option value="fashion">Fashion</option>
+        <option value="communication and technology">Communication and Technology</option>
+        <option value="travelling">Travelling</option>
+        <option value="crime and punishment">Crime and Punishment</option>
+        <option value="addictions">Addictions</option>
+        <option value="films and arts">Films and Arts</option>
+        <option value="fame">Fame</option>
+        <option value="employment">Employment</option>
+        <option value="money management">Money Management</option>
+        <option value="ethics and human rights">Ethics and Human Rights</option>
+        <option value="conspiracy theories">Conspiracy Theories</option>
+        <option value="gossip">Gossip</option>
+      </select>
+      
+      <select id="level">
+        <option value="">All Levels</option>
+        <option value="A1">A1</option>
+        <option value="B1">B1</option>
+        <option value="B2">B2</option>
+        <option value="C1">C1</option>
+        <option value="C2">C2</option>
+        <!-- Add more levels as needed -->
+      </select>
+
+      <select id="category">
+        <option value="">All Categories</option>
+        <option value="reading">Reading</option>
+        <option value="writing">Writing</option>
+        <option value="speaking">Speaking</option>
+        <option value="listening">Listening</option>
+        <option value="use of english">Use of English</option>
+        <option value="vocabulary">Vocabulary</option>
+        <!-- Add more categories as needed -->
+      </select>
+      
+      <button onclick="filterWorksheets()">Filter</button>
+      <button onclick="clearFilters()">Clear Filters</button>
+    </div>
+    <ul id="worksheet-list"></ul>
+  </main>
+  <script src="scripts.js"></script>
+</body>
+</html>
