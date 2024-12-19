@@ -11,14 +11,23 @@ const worksheets = [
   { id: 10, topic: 'crime and punishment', level: 'B1', name: 'Crimes Vocabulary', file: 'worksheets/Crimes Vocabulary.pdf', answerKey: '', sources: "", thumbnail: 'thumbnails/Crimes Vocabulary.png', categories: 'vocabulary' },
   { id: 11, topic: 'storytelling', level: 'B1', name: 'short-stories-british-tales-florence-nightingale', file: 'worksheets/short-stories-british-tales-florence-nightingale.pdf', answerKey: 'worksheets/keys/short-stories-british-tales-florence-nightingaleKEY.pdf', sources: ["https://learnenglishkids.britishcouncil.org/listen-watch/short-stories/florence-nightingale"], thumbnail: 'thumbnails/short-stories-british-tales-florence-nightingale.png', categories: 'listening, vocabulary, writing' },
   { id: 12, topic: 'storytelling', level: 'A2', name: 'what-did-i-turn-into', file: 'worksheets/what-did-i-turn-into.pdf', answerKey: '', sources: "", thumbnail: 'thumbnails/what-did-i-turn-into.png', categories: 'reading, writing' },
-  { id: 13, topic: '', level: '', name: '', file: 'worksheets/.pdf', answerKey: 'worksheets/keys/KEY.pdf', sources: [""], thumbnail: 'thumbnails/.png', categories: '' },
-  { id: 14, topic: '', level: '', name: '', file: 'worksheets/.pdf', answerKey: 'worksheets/keys/KEY.pdf', sources: [""], thumbnail: 'thumbnails/.png', categories: '' },
-  { id: 15, topic: '', level: '', name: '', file: 'worksheets/.pdf', answerKey: 'worksheets/keys/KEY.pdf', sources: [""], thumbnail: 'thumbnails/.png', categories: '' },
-  { id: 16, topic: '', level: '', name: '', file: 'worksheets/.pdf', answerKey: 'worksheets/keys/KEY.pdf', sources: [""], thumbnail: 'thumbnails/.png', categories: '' },
-  { id: 17, topic: '', level: '', name: '', file: 'worksheets/.pdf', answerKey: 'worksheets/keys/KEY.pdf', sources: [""], thumbnail: 'thumbnails/.png', categories: '' },
-  { id: 18, topic: '', level: '', name: '', file: 'worksheets/.pdf', answerKey: 'worksheets/keys/KEY.pdf', sources: [""], thumbnail: 'thumbnails/.png', categories: '' },
-  { id: 19, topic: '', level: '', name: '', file: 'worksheets/.pdf', answerKey: 'worksheets/keys/KEY.pdf', sources: [""], thumbnail: 'thumbnails/.png', categories: '' },
-  { id: 20, topic: '', level: '', name: '', file: 'worksheets/.pdf', answerKey: 'worksheets/keys/KEY.pdf', sources: [""], thumbnail: 'thumbnails/.png', categories: '' },
+  { id: 13, topic: 'communication and technology', level: 'B2', name: 'Brains-Todays-teens-are-going-through-a-lot', file: 'worksheets/Brains-Todays-teens-are-going-through-a-lot.pdf', answerKey: 'worksheets/keys/Brains-Todays-teens-are-going-through-a-lotKEY.pdf', sources: ["https://www.youtube.com/watch?v=I-qmaC1bVHI&ab_channel=Edutopia"], thumbnail: 'thumbnails/Brains-Todays-teens-are-going-through-a-lot.png', categories: 'use of english, reading, listening, speaking' },
+  { id: 14, topic: 'travelling', level: 'B2', name: 'a_more_formal_email', file: 'worksheets/a_more_formal_email.pdf', answerKey: 'worksheets/keys/a_more_formal_emailKEY.pdf', sources: ["https://learnenglishteens.britishcouncil.org/skills/writing/b2-writing/more-formal-email"], thumbnail: 'thumbnails/a_more_formal_email.png', categories: 'writing, reading' },
+  { id: 15, topic: 'family life', level: 'C1', name: 'Families-extended-nuclear-chosen', file: 'worksheets/Families-extended-nuclear-chosen.pdf', answerKey: 'worksheets/keys/Families-extended-nuclear-chosenKEY.pdf', sources: ["https://youtu.be/sd9d5z7idyQ"], thumbnail: 'thumbnails/Families-extended-nuclear-chosen.png', categories: 'vocabulary, listening, speaking' },
+  { id: 16, topic: 'fashion', level: 'B2', name: 'Clothes and accesories', file: 'worksheets/Clothes and accesories.pdf', answerKey: 'worksheets/keys/Clothes and accesoriesKEY.pdf', sources: "", thumbnail: 'thumbnails/Clothes and accesories.png', categories: 'vocabulary' },
+  { id: 17, topic: 'fashion', level: 'B2', name: 'Talking about fashion', file: 'worksheets/Talking about fashion.pdf', answerKey: 'worksheets/keys/Talking about fashionKEY.pdf', sources: "", thumbnail: 'thumbnails/Talking about fashion.png', categories: 'vocabulary, speaking' },
+  { id: 18, topic: 'festivals', level: 'B2', name: 'christmas-music', file: 'worksheets/christmas-music.pdf', answerKey: 'worksheets/keys/christmas-musicKEY.pdf', sources: ["https://www.linguahouse.com/esl-lesson-plans/general-english/christmas-music"], thumbnail: 'thumbnails/christmas-music.png', categories: 'reading, vocabualry' },
+  { id: 19, topic: 'ethics and human rights', level: 'B2', name: "International women's day", file: "worksheets/International women's day.pdf", answerKey: "worksheets/International women's daykeys/KEY.pdf", sources: "", thumbnail: "thumbnails/International women's day.png", categories: 'reading, vocabulary, speaking, writing' },
+  { id: 21, topic: 'employment', level: 'B2', name: 'Work-life-balance', file: 'worksheets/Work-life-balance.pdf', answerKey: 'worksheets/keys/Work-life-balanceKEY.pdf', sources: ["https://learnenglish.britishcouncil.org/skills/reading/b2-reading/work-life-balance"], thumbnail: 'thumbnails/Work-life-balance.png', categories: 'reading' },
+  { id: 22, topic: 'employment', level: 'B2', name: 'Millennials-in-the-workplace', file: 'worksheets/Millennials-in-the-workplace.pdf', answerKey: 'worksheets/keys/Millennials-in-the-workplaceKEY.pdf', sources: ["https://learnenglish.britishcouncil.org/skills/reading/b2-reading/millennials-workplace"], thumbnail: 'thumbnails/Millennials-in-the-workplace.png', categories: 'reading, vocabulary' },
+  { id: 23, topic: 'money management', level: 'B1', name: 'Are-you-a-saver-or-a-spender', file: 'worksheets/Are-you-a-saver-or-a-spender.pdf', answerKey: 'worksheets/keys/Are-you-a-saver-or-a-spenderKEY.pdf', sources: ["https://eslbrains.com/are-you-a-saver-or-a-spender/"], thumbnail: 'thumbnails/Are-you-a-saver-or-a-spender.png', categories: 'vocabulary, use of english, listening' },
+  { id: 24, topic: '', level: 'B1', name: 'Reading activity-The noticeboard', file: 'worksheets/Reading activity-The noticeboard.pdf', answerKey: 'worksheets/keys/Reading activity-The noticeboardKEY.pdf', sources: ["https://learnenglishteens.britishcouncil.org/skills/reading/b1-reading/noticeboard"], thumbnail: 'thumbnails/Reading activity-The noticeboard.png', categories: 'reading' },
+  { id: 25, topic: 'conspiracy theories', level: 'B1', name: 'Reading comprehension- Nessie', file: 'worksheets/Reading comprehension- Nessie.pdf', answerKey: 'worksheets/keys/Reading comprehension- NessieKEY.pdf', sources: [""], thumbnail: 'thumbnails/Reading comprehension- Nessie.png', categories: 'reading' },
+  { id: 26, topic: 'fame', level: 'B1', name: 'Social-media-influencers', file: 'worksheets/Social-media-influencers.pdf', answerKey: 'worksheets/keys/Social-media-influencersKEY.pdf', sources: ["https://learnenglish.britishcouncil.org/skills/reading/b1-reading/social-media-influencers"], thumbnail: 'thumbnails/Social-media-influencers.png', categories: 'reading' },
+  { id: 27, topic: 'festivals', level: 'B2', name: 'Festivals Listening Comprehension', file: 'worksheets/Festivals Listening Comprehension.pdf', answerKey: 'worksheets/keys/Festivals Listening ComprehensionKEY.pdf', sources: ["https://www.youtube.com/watch?v=IM_knhDTCGU"], thumbnail: 'thumbnails/Festivals Listening Comprehension.png', categories: 'listening' },
+  { id: 28, topic: 'festivals', level: 'B2', name: 'Festivals Reading Comprehension', file: 'worksheets/Festivals Reading Comprehension.pdf', answerKey: 'worksheets/keys/Festivals Reading ComprehensionKEY.pdf', sources: "", thumbnail: 'thumbnails/Festivals Reading Comprehension.png', categories: 'reading' },
+  { id: 29, topic: '', level: '', name: '', file: 'worksheets/.pdf', answerKey: 'worksheets/keys/KEY.pdf', sources: [""], thumbnail: 'thumbnails/.png', categories: '' },
+  { id: 30, topic: '', level: '', name: '', file: 'worksheets/.pdf', answerKey: 'worksheets/keys/KEY.pdf', sources: [""], thumbnail: 'thumbnails/.png', categories: '' },
 
 ];
 
@@ -65,6 +74,10 @@ function filterWorksheets() {
       link.textContent = ws.name;
       link.target = '_blank';
       listItem.appendChild(link);
+
+      const levelText = document.createElement('span');
+      levelText.textContent = ws.level;
+      listItem.appendChild(levelText);
 
       const categoriesText = document.createElement('span');
       categoriesText.textContent = ws.categories;
