@@ -26,9 +26,9 @@ const worksheets = [
   { id: 26, topic: 'fame', level: 'B1', name: 'Social-media-influencers', file: 'worksheets/Social-media-influencers.pdf', answerKey: 'worksheets/keys/Social-media-influencersKEY.pdf', sources: ["https://learnenglish.britishcouncil.org/skills/reading/b1-reading/social-media-influencers"], thumbnail: 'thumbnails/Social-media-influencers.png', categories: 'reading' },
   { id: 27, topic: 'festivals', level: 'B2', name: 'Festivals Listening Comprehension', file: 'worksheets/Festivals Listening Comprehension.pdf', answerKey: 'worksheets/keys/Festivals Listening ComprehensionKEY.pdf', sources: ["https://www.youtube.com/watch?v=IM_knhDTCGU"], thumbnail: 'thumbnails/Festivals Listening Comprehension.png', categories: 'listening' },
   { id: 28, topic: 'festivals', level: 'B2', name: 'Festivals Reading Comprehension', file: 'worksheets/Festivals Reading Comprehension.pdf', answerKey: 'worksheets/keys/Festivals Reading ComprehensionKEY.pdf', sources: "", thumbnail: 'thumbnails/Festivals Reading Comprehension.png', categories: 'reading' },
-  { id: 29, topic: '', level: '', name: '', file: 'worksheets/.pdf', answerKey: 'worksheets/keys/KEY.pdf', sources: [""], thumbnail: 'thumbnails/.png', categories: '' },
-  { id: 30, topic: '', level: '', name: '', file: 'worksheets/.pdf', answerKey: 'worksheets/keys/KEY.pdf', sources: [""], thumbnail: 'thumbnails/.png', categories: '' },
-
+  { id: 29, topic: 'communication and technology', level: 'B1', name: 'Computer Gaming', file: 'worksheets/Computer Gaming.pdf', answerKey: 'worksheets/keys/Computer GamingKEY.pdf', sources: ["https://www.teachingenglish.org.uk/teaching-resources/teaching-secondary/lesson-plans/intermediate-b1/computer-gaming"], thumbnail: 'thumbnails/Computer Gaming.png', categories: 'reading, vocabulary, speaking' },
+  { id: 30, topic: 'arts and creativity', level: 'A2', name: 'Salvador Dali', file: 'worksheets/Salvador Dali.pdf', answerKey: '', sources: "", thumbnail: 'thumbnails/Salvador Dali.png', categories: 'reading' },
+  { id: 30, topic: 'arts and creativity', level: 'A2', name: 'Street art', file: 'worksheets/Street art.pdf', answerKey: '', sources: "", thumbnail: 'thumbnails/Street art.png', categories: 'reading' },
 ];
 
 function filterWorksheets() {
